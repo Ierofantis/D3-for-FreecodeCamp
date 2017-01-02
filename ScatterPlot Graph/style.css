@@ -1,0 +1,38 @@
+body {
+  font: 10px sans-serif;
+ background-image: url("http://www.cyclinguk.org/sites/default/files/imagecache/990x500/media_library/users/margaret.anne.orgill/road_image.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   
+}
+
+.main text {
+  font: 10px sans-serif;
+}
+
+.axis line,
+.axis path {
+  shape-rendering: crispEdges;
+  stroke: black;
+  fill: none;
+}
+
+circle {
+  fill: red;
+}
+
+.amount {
+  font-size: 1em;
+  font-weight: bold;
+  position: absolute;
+  text-align: left;
+  width: auto;
+  height: auto;
+  padding: 3px 5px 3px 5px;
+  font: 1em sans-serif;
+  border: 0px;
+  border-radius: 5px;
+  pointer-events: none;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+  background-color: lightsteelblue;
+}
